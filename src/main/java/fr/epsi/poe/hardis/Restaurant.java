@@ -70,9 +70,9 @@ public class Restaurant {
 
     public void setTelephone(String pTelephone) {
         //vérifier si le téléphone n'est pas nul, n'est pas vide et commence bien par +33
-        //if (pTelephone != null && !"".equals(pTelephone) && pTelephone.startsWith("+33")){
+        if (pTelephone != null && !"".equals(pTelephone) && pTelephone.startsWith("+33")){
             telephone = pTelephone;
-        //}
+        }
     }
 
     public void setOuverture(boolean ouverture) {
