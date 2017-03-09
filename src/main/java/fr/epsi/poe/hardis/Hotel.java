@@ -18,6 +18,10 @@ public class Hotel {
     //Ouverture ou fermeture l'hotel
     private boolean ouverture = true;
 
+    public Hotel(){
+
+    }
+
     public Hotel(String nom, String adresse, String codePostal, String telephone, boolean ouverture) {
         this.nom = nom;
         this.adresse = adresse;
