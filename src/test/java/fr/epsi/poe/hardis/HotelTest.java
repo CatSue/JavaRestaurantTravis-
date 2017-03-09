@@ -6,6 +6,7 @@ import org.junit.Test;
 //import static org.junit.jupiter.api.Assertions.*;
 
 /**
+ * HotelTest : OK
  * Created by T'Chi on 28/02/2017.
  * Classe de test
  */
