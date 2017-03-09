@@ -15,7 +15,6 @@ public class RestaurantTest {
 
     //public String why;
 
-
     public static final String NUM_TELEPHONE1 = "+33605020305";
     public static final String NUM_TELEPHONE2 = "0605020305";
 
