@@ -26,6 +26,25 @@ public class Hotel {
         this.ouverture = ouverture;
     }
 
+    public String getNom() {
+        return nom;
+    }
+
+    public String getAdresse() {
+        return adresse;
+    }
+
+    public String getCodePostal() {
+        return codePostal;
+    }
+
+    public String getTelephone() {
+        return telephone;
+    }
+
+    public boolean isOuverture() {
+        return ouverture;
+    }
 
     public void setTelephone(String pTelephone) {
         //vérifier si le téléphone n'est pas nul, n'est pas vide et commence bien par +33
