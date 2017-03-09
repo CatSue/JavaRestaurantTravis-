@@ -16,6 +16,9 @@ public class Plage {
     //Température de l'eau
     private int temp;
 
+    //Nombre de grains de sable
+    private long grains;
+
     //********************CONSTRUCTEURS********************//
     public Plage(String pNom, int pNbParasol, int pTemp) {
         nom = pNom;
