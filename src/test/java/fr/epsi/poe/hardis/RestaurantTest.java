@@ -8,7 +8,7 @@ import org.junit.Test;
 
 /**
  * Created by T'Chi on 28/02/2017.
- *
+ * Classe de test
  */
 
 public class RestaurantTest {
