@@ -19,6 +19,14 @@ public class Plage {
     //Nombre de grains de sable
     private long grains;
 
+    public long getGrains() {
+        return grains;
+    }
+
+    public void setGrains(long grains) {
+        this.grains = grains;
+    }
+
     public String getNom() {
         return nom;
     }
