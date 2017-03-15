@@ -16,6 +16,9 @@ public class Plage {
     //Température de l'eau
     private int temp;
 
+    //PH de l'eau
+    private int ph;
+
     //Nombre de grains de sable
     private long grains;
 
