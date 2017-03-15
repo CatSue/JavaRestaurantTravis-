@@ -63,13 +63,7 @@ public class Restaurant {
         this.nom = nom;
     }
 
-    public void setAdresse(String adresse) {
-        this.adresse = adresse;
-    }
 
-    public void setCodePostal(String codePostal) {
-        this.codePostal = codePostal;
-    }
 
 
 
