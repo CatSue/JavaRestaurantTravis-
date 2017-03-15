@@ -53,6 +53,11 @@ public class Restaurant {
 
 
     //*****SETTEURS*****//
+
+    public String getCodePostal() {
+        return codePostal;
+    }
+
     public void setNom(String nom) {
         //provisoire
         this.nom = nom;
