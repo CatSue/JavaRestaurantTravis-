@@ -19,6 +19,7 @@ public class Plage {
     //Nombre de grains de sable
     private long grains;
 
+    //********************GETTEURS et SETTEURS********************//
     public long getGrains() {
         return grains;
     }
