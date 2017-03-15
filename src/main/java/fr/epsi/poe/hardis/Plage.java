@@ -27,6 +27,14 @@ public class Plage {
         this.nom = nom;
     }
 
+    public int getTemp() {
+        return temp;
+    }
+
+    public void setTemp(int temp) {
+        this.temp = temp;
+    }
+
     //********************CONSTRUCTEURS********************//
     public Plage(String pNom, int pNbParasol, int pTemp) {
         nom = pNom;
