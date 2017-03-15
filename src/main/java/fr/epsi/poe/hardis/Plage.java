@@ -43,6 +43,14 @@ public class Plage {
         this.temp = temp;
     }
 
+    public int getNbParasol() {
+        return nbParasol;
+    }
+
+    public void setNbParasol(int nbParasol) {
+        this.nbParasol = nbParasol;
+    }
+
     //********************CONSTRUCTEURS********************//
     public Plage(String pNom, int pNbParasol, int pTemp) {
         nom = pNom;
