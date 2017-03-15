@@ -1,6 +1,7 @@
 package fr.epsi.poe.hardis;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 //import static org.junit.jupiter.api.Assertions.*;
@@ -11,7 +12,7 @@ import org.junit.Test;
  * Classe de test
  */
 
-public class HotelTest {
+public class RestaurantTest {
 
     //public String why;
 
@@ -19,19 +20,19 @@ public class HotelTest {
     public static final String NUM_TELEPHONE2 = "0605020305";
 
     //Constructeur qui permet de lancer les TU
-    public HotelTest() {
+    public RestaurantTest() {
     }
 
-    //vérification qu'un hotel est ouvert par defaut
+    //vérification qu'un restaurant est ouvert par defaut
     @Test
-    public void testThatHotelIsOpenByDefault() {
-        Hotel hotel = new Hotel();
+    public void testThatRestaurantIsOpenByDefault() {
+        Restaurant restaurant = new Restaurant();
 
         /**
          * Act
-         * action sur l'objet, on va vérifier que le hotel est ouvert
+         * action sur l'objet, on va vérifier que le restaurant est ouvert
          */
-        boolean etat = hotel.isOuverture();
+        boolean etat = restaurant.isOuverture();
 
         /**
          * Assert
@@ -43,22 +44,22 @@ public class HotelTest {
     @Test
     public void testThatSaveTheValidNumber() {
         // Arrange
-        Hotel hotel = new Hotel();
+        Restaurant restaurant = new Restaurant();
         // Act
-        hotel.setTelephone(NUM_TELEPHONE1);
+        restaurant.setTelephone(NUM_TELEPHONE1);
         // Assert
-        Assert.assertEquals("Error", NUM_TELEPHONE1, hotel.getTelephone());
+        Assert.assertEquals("Error", NUM_TELEPHONE1, restaurant.getTelephone());
     }
 
     //vérification quand on set n° de téléphone si le n° ne commence par +33 pas de sauvegarde
     @Test
     public void testThatNotSaveTheInvalidNumber() {
         // Arrange
-        Hotel hotel = new Hotel();
+        Restaurant restaurant = new Restaurant();
         // Act
-        hotel.setTelephone(NUM_TELEPHONE2);
+        restaurant.setTelephone(NUM_TELEPHONE2);
         // Assert
-        Assert.assertNotEquals("Error", NUM_TELEPHONE2, hotel.getTelephone());
+        Assert.assertNotEquals("Error", NUM_TELEPHONE2, restaurant.getTelephone());
     }
 
     //vérification qu'il est possible de stocker des départements corses (cas limite)
