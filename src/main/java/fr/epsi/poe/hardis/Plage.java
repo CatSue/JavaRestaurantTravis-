@@ -19,6 +19,14 @@ public class Plage {
     //Nombre de grains de sable
     private long grains;
 
+    public String getNom() {
+        return nom;
+    }
+
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
     //********************CONSTRUCTEURS********************//
     public Plage(String pNom, int pNbParasol, int pTemp) {
         nom = pNom;
